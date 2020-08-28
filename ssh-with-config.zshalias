@@ -1,0 +1,3 @@
+# source ~/sites/zsh-alias/ssh-with-config.zshalias
+
+alias sts="ssh testserver"

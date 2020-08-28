@@ -1,0 +1,24 @@
+# source ~/sites/zsh-alias/octobercms.zshalias
+
+alias ocp="composer create-project october/october "
+
+alias ocfg="php artisan create:config "
+alias ocmd="php artisan create:command "
+alias ocon="php artisan create:controller "
+alias ocom="php artisan create:component "
+alias ofwg="php artisan create:formwidget "
+alias olng="php artisan create:lang "
+alias omdl="php artisan create:emodel "
+alias oplg="php artisan create:plugin "
+alias orep="php artisan create:repository "
+alias orwg="php artisan create:reportwidget "
+alias oser="php artisan create:service "
+alias otrt="php artisan create:trait "
+
+alias opd="php artisan plugin:remove "
+alias opi="php artisan plugin:install "
+
+alias oe="php artisan october:env"
+alias opm="php artisan october:mirror public"
+alias opr="php artisan plugin:refresh "
+alias opwd="php artisan october:passwd "

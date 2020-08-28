@@ -1,0 +1,49 @@
+# source ~/sites/zsh-alias/git.zshalias
+
+alias gac="git add . && git commit -a -m "
+alias gca="git commit --amend "
+
+alias gbs="git branches"
+alias gbrl="git branch -d "
+alias gbrr="git push origin --delete "
+
+alias gpl="git pull"
+alias gc="git checkout "
+alias gcdm="git checkout dev-master"
+alias gcp="git checkout prod"
+alias gcu="git checkout uat"
+
+alias gm="git merge "
+alias gmd="git merge develop"
+
+alias gpd="git push origin develop"
+alias gpdm="git push origin dev-master"
+alias gpm="git push origin master"
+alias gpp="git push origin prod"
+alias gpu="git push origin uat"
+alias gpdo="git push -d origin "
+alias gpt="git push origin --tags"
+
+alias gs="git status"
+alias gt="git log --graph --pretty=oneline --abbrev-commit" #git tree
+alias gk="gitk "
+alias gcr="git rm -r --cached ."
+
+### Git flow: https://danielkummer.github.io/git-flow-cheatsheet/
+
+alias gfi="git flow init"
+
+alias gffs="git flow feature start "
+alias gffpu="git flow feature publish "
+alias gffp="git flow feature pull "
+alias gfff="git flow feature finish "
+
+alias gfhs="git flow hotfix start "
+alias gfhpu="git flow hotfix publish "
+alias gfhp="git flow hotfix pull "
+alias gfhf="git flow hotfix finish "
+
+alias gfrs="git flow release start "
+alias gfrpu="git flow release publish "
+alias gfrp="git flow release pull "
+alias gfrf="git flow release finish "

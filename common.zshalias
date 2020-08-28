@@ -1,0 +1,27 @@
+# source ~/sites/zsh-alias/common.zshalias
+
+alias cls="clear"
+
+alias ccp="composer create-project "
+alias ci="composer install"
+alias cr="composer require "
+alias cu="composer update"
+
+alias hs="history | grep"
+
+alias mlc="mysql -uroot -proot"
+
+alias myip="curl http://ipecho.net/plain; echo"
+
+alias oa="open /Applications/Audacity.app/Contents/MacOS/Audacity"
+
+alias sc="vi ~/.ssh/config"
+
+alias ve="vi .env"
+alias vs="sudo vi"
+alias vz="vi ~/.zshrc"
+
+alias xon="xdebug-toggle on; valet restart"
+alias xoff="xdebug-toggle off; valet restart"
+
+alias yi="yarn install "

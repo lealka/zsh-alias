@@ -1,0 +1,4 @@
+# source ~/sites/zsh-alias/laravel.zshalias
+
+alias lcc="php artisan cache:clear"
+alias lcp="composer create-project laravel/laravel "
