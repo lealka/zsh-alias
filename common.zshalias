@@ -8,8 +8,9 @@ alias cr="composer require "
 alias cu="composer update"
 
 alias hs="history | grep"
+alias as="pmset -g assertions"
 
-alias mlc="mysql -uroot -proot"
+alias my="mysql -uroot -proot"
 
 alias myip="curl http://ipecho.net/plain; echo"
 

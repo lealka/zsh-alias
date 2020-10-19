@@ -18,16 +18,19 @@ alias gmd="git merge develop"
 
 alias gpd="git push origin develop"
 alias gpdm="git push origin dev-master"
+alias gpdo="git push -d origin "
 alias gpm="git push origin master"
+alias gpo="git push origin "
 alias gpp="git push origin prod"
 alias gpu="git push origin uat"
-alias gpdo="git push -d origin "
 alias gpt="git push origin --tags"
 
 alias gs="git status"
 alias gt="git log --graph --pretty=oneline --abbrev-commit" #git tree
 alias gk="gitk "
 alias gcr="git rm -r --cached ."
+
+alias gtag="git tag"
 
 ### Git flow: https://danielkummer.github.io/git-flow-cheatsheet/
 
