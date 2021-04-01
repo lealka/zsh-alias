@@ -1,6 +1,6 @@
 # source ~/sites/zsh-alias/octobercms.zshalias
 
-alias ocp="composer create-project october/october "
+alias ocp="git clone git@gitlab.legato.co:Legato-Libraries/OctoberCMS/octobercms-1.1-kit-starter.git "
 
 alias ocfg="php artisan create:config "
 alias ocls="php artisan create:class "
