@@ -31,6 +31,7 @@ alias gcr="git rm -r --cached ."
 
 alias gtag="git tag"
 alias gtaga="git tag -a "
+alias gtagd="git tag -d "
 alias gtagp="git push origin --tags"
 
 ### Git flow: https://danielkummer.github.io/git-flow-cheatsheet/

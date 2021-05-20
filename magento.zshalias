@@ -1,0 +1,5 @@
+# source ~/sites/zsh-alias/magento.zshalias
+
+alias mcp="composer create-project --repository-url=https://repo.magento.com/ magento/project-community-edition "
+alias m2fad="bin/magento module:disable Magento_TwoFactorAuth"
+alias mdmd="bin/magento deploy:mode:set developer"
